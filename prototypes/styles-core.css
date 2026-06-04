@@ -14,6 +14,7 @@
   --color-ink-btn-text: #FFFFFF;
   --color-ink-tag-bg: #F0F0F0;
   --color-ink-tag-border: #CCCCCC;
+  --device-scale: 0.7;  /* 修改此值整体缩放设备框架 */
 }
 
 /* ===== 设备框架 ===== */
@@ -40,6 +41,8 @@ html, body, #root {
   position: relative;
   display: flex;
   flex-direction: column;
+  transform: scale(var(--device-scale, 0.7));
+  transform-origin: center center;
 }
 
 .device-content {
