@@ -70,6 +70,14 @@ html, body, #root {
 .ink-btn-outline { background: var(--color-ink-bg); color: var(--color-ink-text); border: 1px solid var(--color-ink-border); }
 .ink-tag { background: var(--color-ink-tag-bg); border: 1px solid var(--color-ink-tag-border); }
 
+/* ===== 文本颜色工具类 ===== */
+.text-ink-text { color: var(--color-ink-text); }
+.text-ink-text-secondary { color: var(--color-ink-text-secondary); }
+.text-ink-text-muted { color: var(--color-ink-text-muted); }
+.bg-ink-text { background-color: var(--color-ink-text); }
+.bg-ink-text-secondary { background-color: var(--color-ink-text-secondary); }
+.bg-ink-card { background-color: var(--color-ink-card); }
+
 /* ===== 阅读页特有样式 ===== */
 .page-zone { position: relative; }
 .paragraph { padding: 12px 16px; cursor: pointer; transition: background 0.15s; z-index: 10; position: relative; }
