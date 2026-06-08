@@ -73,8 +73,6 @@ html, body, #root {
 /* ===== 阅读页特有样式 ===== */
 .page-zone { position: relative; }
 .paragraph { padding: 12px 16px; cursor: pointer; transition: background 0.15s; z-index: 10; position: relative; }
-.paragraph:hover { background: #f0f0f0; }
-.paragraph.selected { background: #e8e8e8; border-left: 3px solid #333; padding-left: 13px; }
 .paragraph.has-note::after { content: "📎"; font-size: 10px; position: absolute; right: 8px; top: 50%; transform: translateY(-50%); }
 .paragraph.audio-highlight { background: rgba(0, 0, 0, 0.08); border-radius: 4px; transition: background 0.3s ease; }
 
