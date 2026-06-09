@@ -1,0 +1,2 @@
+var _=Object.defineProperty;var n=(t,e)=>_(t,"name",{value:e,configurable:!0});(function(t){"use strict";var e=document.createElement("style");e.textContent=`.placeholder-empty-page{min-height:100vh;background:#fff}
+/*$vite$:1*/`,document.head.appendChild(e);function a(){return t.createElement("main",{className:"placeholder-empty-page","aria-label":"未命名"})}n(a,"Placeholder"),typeof window!="undefined"&&window.__AXHUB_DEFINE_COMPONENT__&&window.__AXHUB_DEFINE_COMPONENT__(a)})(React);
